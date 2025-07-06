@@ -24,15 +24,24 @@ public class Test {
 		System.out.println(taro.age);
 		System.out.println(taro.phoneNumber);
 		System.out.println(taro.address);
+		taro.talk();
+		taro.walk();
+		taro.run();
 		
 		System.out.println(ziro.name);
 		System.out.println(ziro.age);
 		System.out.println(ziro.phoneNumber);
 		System.out.println(ziro.address);
+		ziro.talk();
+		ziro.walk();
+		ziro.run();
 		
 		System.out.println(hanako.name);
 		System.out.println(hanako.age);
 		System.out.println(hanako.phoneNumber);
 		System.out.println(hanako.address);
+		hanako.talk();
+		hanako.walk();
+		hanako.run();
 	}
 }
